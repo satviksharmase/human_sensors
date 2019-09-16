@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   
-  if (digitalRead(5) == HIGH) {
+  if (digitalRead(4) == HIGH) {
     Serial.println("Active");
   }
   else {
