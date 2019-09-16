@@ -3,18 +3,13 @@ void setup() {
   Serial.begin(9600);
   pinMode(6, INPUT);
   pinMode(5, INPUT);
-  pinMode(4, INPUT);
+
   
   
 }
 
 void loop() {
-  if (digitalRead(4) == HIGH) {
-    Serial.println("Active");
-  }
-  else {
-    Serial.println("Inactive");
-  }
+
   if (digitalRead(5) == HIGH) {
     Serial.println("Active");
   }
